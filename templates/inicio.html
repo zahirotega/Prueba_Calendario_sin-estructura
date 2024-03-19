@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <!-- Agregar los enlaces a los archivos CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido al Calendario</h1>
+        <a href="{% url 'lista_eventos_web' %}" class="btn btn-primary">Ver Eventos</a>
+        <a href="{% url 'crear_evento' %}" class="btn btn-success">Crear Evento</a>
+    </div>
+</body>
+</html>
